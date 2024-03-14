@@ -13,6 +13,10 @@ body{
         font-family: fantasy;
 }
 
+main{
+    min-height: 100vh;
+}
+
 h1{
     text-align: center;
 }
@@ -39,6 +43,10 @@ h1{
     font-size: 64px;
     cursor: pointer;
     font-family: sans-serif;
+}
+
+span{
+    float: right;
 }
 
 @media screen and (max-width: 560px) {
